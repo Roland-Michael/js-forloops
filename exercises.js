@@ -1,3 +1,17 @@
+/*EXAMPLE
+
+for (var i = 0;  i<10; i ++){
+//your code
+}
+
+var shoppingList = ['carrot cake', 'Doritos', 'peanut butter', 'poke'];
+
+for(var i = 0; i<shoppingList.length; i++){
+  console.log(shoppingList[i]);
+};
+
+END OF EXAMPLE*/
+
 /* 1) Ticket Generator
 Write a for-loop that will iterate through 20 numbers (starting at 1 and ending at 20) and console.log the following message:
 "Now serving 1."
@@ -8,6 +22,11 @@ Write a for-loop that will iterate through 20 numbers (starting at 1 and ending 
 .
 "Now serving 20."
 */
+var nowUp = 0
+
+for (var i = 1; i<21; i++){
+  console.log('Now serving ' + i + '.');
+} 
 
 
 /* 2) Pop Charts
