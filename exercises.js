@@ -147,6 +147,9 @@ down
 nope
 turn
 */
+for( var i = oopsArray.length -1; i >= 0; i--){
+  console.log(oopsArray[i]);
+}
 
 
 /* 9) Siesta Time
